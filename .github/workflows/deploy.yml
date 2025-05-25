@@ -98,7 +98,6 @@ jobs:
 
                       
                       # Build the multi-stage Docker image defined in your Dockerfile
-                      sudo docker image prune -f
                       sudo docker build -t react-app:latest .
 
 
