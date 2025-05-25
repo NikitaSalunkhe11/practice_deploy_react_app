@@ -102,8 +102,8 @@ jobs:
 
 
                       # Stop & remove any old container named "react-app"
-                      sudo docker stop react-app
-                      sudo docker rm   react-app
+                      sudo docker stop react-app || true
+                      sudo docker rm   react-app || true
 
 
                       # Run the new container:
