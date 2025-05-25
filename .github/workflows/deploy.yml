@@ -92,12 +92,13 @@ jobs:
                       rm -rf react-app
                       mkdir react-app
                       cd ~/react-app
-                      git clone https://github.com/yogeshOzaDeanInfotech/cicd-react-demo.git .
+                      git clone https://github.com/NikitaSalunkhe11/practice_deploy_react_app.git .
                       git fetch origin main
                       git reset --hard origin/main
 
-
+                      
                       # Build the multi-stage Docker image defined in your Dockerfile
+                      sudo docker image prune -f
                       sudo docker build -t react-app:latest .
 
 
