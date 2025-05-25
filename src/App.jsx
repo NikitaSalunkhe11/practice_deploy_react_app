@@ -7,6 +7,7 @@ function App() {
     <>
       <h1>CI_CD </h1>
       <h4>Self Practice CI_CD pipeline</h4>
+      <h1>hello</h1>
     </>
   )
 }
