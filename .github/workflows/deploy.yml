@@ -5,7 +5,7 @@ name: CI/CD for React App
 # 1) Trigger this workflow on every push to "main"
 on:
     push: b  
-        branches: [main]
+        branches:[main]
 
 
 jobs:
