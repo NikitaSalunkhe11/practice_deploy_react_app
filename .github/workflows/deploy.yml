@@ -31,7 +31,7 @@ jobs:
 
 
                   # 4c) SSH private key (stored as a secret, exported from PuTTYgen or OpenSSH)
-                  key: ${{ secrets.EC2_SSH_KEY }}
+                  key: ${{ secrets.EC2_SECRET_KEY }}
 
 
                   # 4d) SSH port (standard is 22)
